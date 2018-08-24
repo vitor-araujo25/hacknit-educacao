@@ -46,4 +46,4 @@ Mais Informações sobre fork e pull request podem ser acessadas em https://guid
 
 O arquivo README.MD deve ser **obrigatoriamente** substituído de forma a conter uma breve descrição da solução, assim como a especificação completa do ambiente que o projeto foi construído, incluindo sistema operacional, linguagens, frameworks, APIs, bibliotecas e quaisquer outras dependências, assim como as respectivas versões utilizadas.
 
-Qualquer dúvida sobre as operações descritas aqui podem ser encaminhadas ao canal HacknitApoio no Telegram.
+Qualquer dúvida sobre as operações descritas aqui podem ser encaminhadas ao canal [Hacknit](https://t.me/joinchat/BYx24Q0lDtHBc7P7gnfEOA) no Telegram.
