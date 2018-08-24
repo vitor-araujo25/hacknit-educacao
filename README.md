@@ -14,9 +14,9 @@ Um membro da equipe deverá fazer o fork do repositório. Isso pode ser feito cl
 
 ![clone](https://github.com/seplagniteroi/hacknit/raw/master/images/fork.png)
 
-Esse membro deverá então fornecer as permissões necessárias aos demais membros da equipe. A criacão de um time no GitHub permite conceder as permissões rapidamente.
+Esse membro deverá então fornecer as permissões necessárias aos demais membros da equipe. A criação de um time no GitHub permite conceder as permissões rapidamente.
 
-Após o fork ser realizado os membros da equipe podem baixar cópias locais do projeto, utilizando o comando git clone. O endereço do repositório pode ser acessado clicando no botão **Clone or Download** nos controles superiores:
+Após o fork ser realizado os membros da equipe podem baixar cópias locais do projeto, utilizando o comando git clone. O endereço do repositório pode ser acessado clicando no botão **Clone or download** nos controles superiores:
 
 ![clone](https://github.com/seplagniteroi/hacknit/raw/master/images/clone.png)
 
@@ -26,7 +26,7 @@ O ato da entrega consiste em realizar um único pull request, que será processa
 
 ![pullrequest](https://github.com/seplagniteroi/hacknit/raw/master/images/pullrequest.png)
 
-Será necessaria a confirmação da confirmação através do botão **Create pull request**:
+Será necessaria a confirmação através do botão **Create pull request**:
 
 ![pullrequest2](https://github.com/seplagniteroi/hacknit/raw/master/images/pullrequest2.png)
 
