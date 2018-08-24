@@ -2,7 +2,7 @@
 
 O arquivo info.txt contém informações acerca de como acessar os dados que devem ser utilizados na construção do projeto proposto.
 
-Para acesso ao dados de alunos contate a equipe de apoio no Telegram.
+Para acesso à base de dados de alunos contate a equipe de apoio no Telegram.
 
 ### Instruções
 
