@@ -38,7 +38,7 @@ Onde XX é o número da equipe. A descrição é opcional:
 
 ![pullrequest3](https://github.com/seplagniteroi/hacknit/raw/master/images/pullrequest3.png)
 
-***As entregas serão aceitas até 9:00 do dia 2 de agosto. após esse horário, não serão mais processadas.***
+***As entregas serão aceitas até 11:00 do dia 26 de agosto. após esse horário, não serão mais processadas.***
 
 Mais Informações sobre fork e pull request podem ser acessadas em https://guides.github.com/activities/forking/.
 
