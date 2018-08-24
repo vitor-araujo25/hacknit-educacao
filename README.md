@@ -1,6 +1,6 @@
 ## Este é o repositório do HackNit referente ao tema *Educação*.
 
-Aqui podem ser encontrados arquivos e bases de dados que devem ser utilizados na construção do projeto proposto.
+O arquivo info.txt contém informações acerca de como acessar os dados que devem ser utilizados na construção do projeto proposto.
 
 ### Instruções
 
