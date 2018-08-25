@@ -11,6 +11,10 @@ body {
 	margin-top: 15vh;
 }
 
+.login {
+	margin-top: 15vh;
+}
+
 .titulo {
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
@@ -28,7 +32,14 @@ body {
 	background-color: #F49044;
 }
 
-/* Form colors from Materialize ----------*/
+.center-align {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Form colors from Materialize para o campo de CPF----------*/
 
 /* label color */
 .input-field label {
@@ -36,22 +47,85 @@ body {
 }
 /* label focus color */
 .input-field input[type=text]:focus + label {
-	color: #000;
+	color: #F7BC8E !important;
 }
 /* label underline focus color */
 .input-field input[type=text]:focus {
-	border-bottom: 1px solid #000;
-	box-shadow: 0 1px 0 0 #000;
+	border-bottom: 1px solid #F7BC8E !important;
+	box-shadow: 0 1px 0 0 #F7BC8E !important;
 }
 /* valid color */
 .input-field input[type=text].valid {
-	border-bottom: 1px solid #000;
-	box-shadow: 0 1px 0 0 #000;
+	border-bottom: 1px solid #F7BC8E !important;
+	box-shadow: 0 1px 0 0 #F7BC8E !important;
 }
 /* invalid color */
 .input-field input[type=text].invalid {
- 	border-bottom: 1px solid #000;
-	box-shadow: 0 1px 0 0 #000;
+ 	border-bottom: 1px solid red;
+	box-shadow: 0 1px 0 0 red;
+}
+   /* icon prefix focus color */
+.input-field .prefix.active {
+ 	color: #F49044 !important;
 }
 
+/* Form colors from Materialize para o campo de SENHA----------*/
+
+/* label color */
+.input-field label {
+	color: #000;
+}
+/* label focus color */
+.input-field input[type=password]:focus + label {
+	color: #F7BC8E !important;
+}
+/* label underline focus color */
+.input-field input[type=password]:focus {
+	border-bottom: 1px solid #F7BC8E !important;
+	box-shadow: 0 1px 0 0 #F7BC8E !important;
+}
+/* valid color */
+.input-field input[type=password].valid {
+	border-bottom: 1px solid #F49044 !important;
+	box-shadow: 0 1px 0 0 #F49044 !important;
+}
+/* invalid color */
+.input-field input[type=password].invalid {
+ 	border-bottom: 1px solid red;
+	box-shadow: 0 1px 0 0 red;
+}
+   /* icon prefix focus color */
+.input-field .prefix.active {
+ 	color: #F49044 !important;
+}
+
+/* Form colors from Materialize para o campo de EMAIL----------*/
+
+/* label color */
+.input-field label {
+	color: #000;
+}
+/* label focus color */
+.input-field input[type=email]:focus + label {
+	color: #F7BC8E !important;
+}
+/* label underline focus color */
+.input-field input[type=email]:focus {
+	border-bottom: 1px solid #F7BC8E !important;
+	box-shadow: 0 1px 0 0 #F7BC8E !important;
+}
+/* valid color */
+.input-field input[type=email].valid {
+	border-bottom: 1px solid #F49044 !important;
+	box-shadow: 0 1px 0 0 #F49044 !important;
+}
+/* invalid color */
+.input-field input[type=email].invalid {
+ 	border-bottom: 1px solid red;
+	box-shadow: 0 1px 0 0 red;
+}
+   /* icon prefix focus color */
+.input-field .prefix.active {
+ 	color: #F49044 !important;
+}
 /* IDs -------------------------*/

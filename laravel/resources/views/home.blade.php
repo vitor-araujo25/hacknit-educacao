@@ -8,10 +8,10 @@
         </div>
 
         <div class='row center'>
-            <a href="/loginResponsavel" class="btn waves-effect waves-light btn-large">Responsável</a>
+            <a href="/loginResponsavel" class="btn waves-effect waves-light btn-large col s12 m5">Responsável</a>
         </div>
         <div class='row center'>
-             <a href="/loginEscola" class="btn waves-effect waves-light btn-large">Secretário</a>
+             <a href="/loginEscola" class="btn waves-effect waves-light btn-large col s12 m5">Secretário</a>
         </div>
      </div>
 
