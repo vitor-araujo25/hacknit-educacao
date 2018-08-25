@@ -82,8 +82,13 @@ footer {
 	padding-top: 7vh;
 }
 
+.tab {
+	text-align: center;
 }
 
+.collection a.collection-item {
+	color: #F49044 !important;
+}
 /* Form colors from Materialize para o campo de CPF----------*/
 
 /* label color */

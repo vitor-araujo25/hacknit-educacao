@@ -13,3 +13,7 @@ $(document).ready(function() {
 $(document).ready(function(){
 	$('.datepicker').datepicker();
 });
+
+//Ativando tabs
+
+M.Tabs.init(document.querySelectorAll('.tabs'))

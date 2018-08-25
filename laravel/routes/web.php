@@ -47,6 +47,19 @@ Route::get('/notas', function() {
 	return view('notas');
 });
 
-Route::get('previsao', function() {
+Route::get('/previsao', function() {
 	return view('previsao');
+});
+
+Route::get('/painel', function() {
+	return view('painel');
+});
+
+
+Route::get('/turma', function() {
+	return view('turma');
+});
+
+Route::get('/aluno', function() {
+	return view('aluno');
 });
