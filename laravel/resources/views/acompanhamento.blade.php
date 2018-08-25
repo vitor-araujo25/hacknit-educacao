@@ -119,11 +119,6 @@
 </div>
 
 
-  <?php
-  print("eita");
-  ?>
-
-
   @include('footer')
 
 @stop
