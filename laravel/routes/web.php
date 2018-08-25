@@ -35,6 +35,10 @@ Route::get('/acompanhamento', function() {
 	return view('acompanhamento');
 });
 
+Route::get('/acompanhamentoEscola', function() {
+	return view('acompanhamentoEscola');
+});
+
 Route::get('/matricula', function() {
 	return view('matricula');
 });
