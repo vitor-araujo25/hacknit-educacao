@@ -26,10 +26,12 @@ body {
 .btn {
 	background-color: #726663;
 	width: 25vw;
+	color: white !important;
 }
 
 .btn:hover {
 	background-color: #F49044;
+	color: white;
 }
 
 .center-align {

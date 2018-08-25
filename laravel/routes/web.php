@@ -22,3 +22,7 @@ Route::get('/loginResponsavel', function () {
 Route::get('/loginEscola', function() {
 	return view('login');
 });
+
+Route::get('/cadastro', function() {
+	return view('cadastro');
+});

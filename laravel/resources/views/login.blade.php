@@ -26,10 +26,10 @@
 		      		</div>
 
 		      		<div class='row'>
-		      			<button type='submit' class='btn waves-effect waves-light btn-large col s12 m5'> Acessar conta </a>
+		      			<input type='submit' class='btn waves-effect waves-light btn-large col s12 m5' value='Acessar Conta'>
 		      		</div>
 		      		<div class='row'>
-		      			<a href='cadastro' class=''> Ainda não tem conta? Cadastre-se! </a>
+		      			<a href='/cadastro' class=''> Ainda não tem conta? Cadastre-se! </a>
 		      		</div>
 	    		</form>
 	  		</div>
@@ -60,7 +60,7 @@
 		      		</div>
 
 		      		<div class='row'>
-		      			<button type='submit' class='btn waves-effect waves-light btn-large col s12 m5'> Acessar conta </a>
+		      			<input type='submit' class='btn waves-effect waves-light btn-large col s12 m5' value='Acessar Conta'>
 		      		</div>
 	    		</form>
 	  		</div>
