@@ -4,14 +4,13 @@ body {
 	background-color: #F3F3F3;
 }
 
+nav {
+	background-color: #F27A2A;
+}
 
 /* CLASSES ----------------------*/
 
-.home {
-	margin-top: 15vh;
-}
-
-.login {
+.margin {
 	margin-top: 15vh;
 }
 
@@ -21,6 +20,13 @@ body {
 	color: #F27A2A;
 	text-align: center;
 
+}
+
+.subtitulo {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	color: #F27A2A;
+	font-size: 2em;
 }
 
 .btn {
@@ -34,11 +40,21 @@ body {
 	color: white;
 }
 
-.center-align {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.nome {
+	font-weight: 300;
+	color: black;
+	font-size: 1.5em;
+}
+
+.card-filho {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	color: #F27A2A;
+	font-size: 1.5em;
+}
+
+.card-filho:hover {
+	color: red;
 }
 
 /* Form colors from Materialize para o campo de CPF----------*/

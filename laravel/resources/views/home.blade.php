@@ -1,7 +1,7 @@
 @extends('master')
 
 @section('content')
-    <div class='home container'>
+    <div class='margin container'>
 
         <div class='row'>
                 <h1 class='titulo col s12'> Quem é você? </h1>

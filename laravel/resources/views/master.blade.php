@@ -22,7 +22,7 @@
     		</div>
 		</div>
 
-		@yield('script')
 		<script type="text/javascript" src="js/materialize.min.js"></script>
+		@yield('script')
 	</body>
 </html>

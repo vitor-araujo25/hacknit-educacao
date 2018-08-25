@@ -26,3 +26,15 @@ Route::get('/loginEscola', function() {
 Route::get('/cadastro', function() {
 	return view('cadastro');
 });
+
+Route::get('/perfil', function() {
+	return view('perfil');
+});
+
+Route::get('/matricula', function() {
+	return view('matricula');
+});
+
+Route::get('/filho', function() {
+	return view('filho');
+});

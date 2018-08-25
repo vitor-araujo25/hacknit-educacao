@@ -4,7 +4,7 @@
 
 	@if (Request::is('loginResponsavel')) <!-- Página de login para o Responsável da criança-->
 
-		<div class='login container'>
+		<div class='margin container'>
 			<div class='row'>
 				<h1 class='titulo'> Bem vindo!</h1>
 			</div>
