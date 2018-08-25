@@ -29,7 +29,7 @@
 
   </ul>
 
-	<div class='container'>
+	<div class='margin container'>
 
   	<div id="advertencia" class="col s12">
       <h1 class='subtitulo'> Envie o S.M.S para o pai do Aluno </h1> 
@@ -38,8 +38,11 @@
             <div class="row">
               <div class="input-field col s12">
                 <textarea id="textarea2" class="materialize-textarea" data-length="160"></textarea>
-                <label for="textarea2">Textarea</label>
+                <label for="sms">Corpo do SMS</label>
               </div>
+            </div>
+            <div class='row center'>
+               <input type='submit' class="btn waves-effect waves-light btn-large" value='Enviar!'>
             </div>
           </form>
       </div>
