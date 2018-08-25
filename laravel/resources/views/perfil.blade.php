@@ -1,10 +1,6 @@
 @extends('master')
 
 
-@section('script')
-	<script type="text/javascript" src="script.js"></script>
-@stop
-
 @section('content')
 
 
@@ -22,9 +18,9 @@
 	</nav>
 
 	<ul class="sidenav" id="mobile-demo">
-    	<li><a href="perfil">Sass</a></li>
-    	<li><a href="matricula">Components</a></li>
-    	<li><a href="collapsible.html">Javascript</a></li>
+    	<li><a href="perfil">Perfil</a></li>
+    	<li><a href="matricula">Situação da Matricula</a></li>
+    	<li><a href="collapsible.html">Sair da Conta</a></li>
   	</ul>
 
   	<div class= 'perfil container'>

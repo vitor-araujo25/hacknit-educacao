@@ -31,10 +31,22 @@ Route::get('/perfil', function() {
 	return view('perfil');
 });
 
+Route::get('/acompanhamento', function() {
+	return view('acompanhamento');
+});
+
 Route::get('/matricula', function() {
 	return view('matricula');
 });
 
 Route::get('/filho', function() {
 	return view('filho');
+});
+
+Route::get('/notas', function() {
+	return view('notas');
+});
+
+Route::get('previsao', function() {
+	return view('previsao');
 });

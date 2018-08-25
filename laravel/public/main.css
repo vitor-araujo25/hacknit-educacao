@@ -29,10 +29,17 @@ nav {
 	font-size: 2em;
 }
 
+.center {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
 .btn {
 	background-color: #726663;
 	width: 25vw;
 	color: white !important;
+
 }
 
 .btn:hover {
@@ -53,8 +60,16 @@ nav {
 	font-size: 1.5em;
 }
 
-.card-filho:hover {
-	color: red;
+
+.btn-card {
+	font-size: 2em;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	color: #F27A2A;
+}
+
+.btn-card:hover {
+	color: #F7BC8E;
 }
 
 /* Form colors from Materialize para o campo de CPF----------*/
