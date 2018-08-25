@@ -1,0 +1,31 @@
+/* TAGS --------------------------*/
+
+body {
+	background-color: #F3F3F3;
+}
+
+
+/* CLASSES ----------------------*/
+
+.home {
+	margin-top: 15vh;
+}
+
+.titulo {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	color: #F27A2A;
+	text-align: center;
+
+}
+
+.btn {
+	background-color: #726663;
+	width: 25vw;
+}
+
+.btn:hover {
+	background-color: #F49044;
+}
+
+/* IDs -------------------------*/

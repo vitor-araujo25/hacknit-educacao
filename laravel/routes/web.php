@@ -12,5 +12,13 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
+});
+
+Route::get('/loginResponsavel', function () {
+	return view('login');
+});
+
+Route::get('/loginEscola', function() {
+	return view('login');
 });
