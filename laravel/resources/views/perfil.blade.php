@@ -1,30 +1,28 @@
 @extends('master')
 
 
-@section('script')
-	<script type="text/javascript" src="script.js"></script>
-@stop
-
 @section('content')
 
 
 	<!--NAVBAR --> 
 	<nav>
 		<div class="nav-wrapper">
-	  		<a href='/perfil' class="brand-logo center">Logo</a>
-	  		<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+	  		<a href='/perfil' class="brand-logo left">Logo</a>
+	  		<a href="#" data-target="mobile-demo" class="right sidenav-trigger"><i class="material-icons">menu</i></a>
   			<ul class="right hide-on-med-and-down">
     			<li class="active"><a href="/perfil">Perfil</a></li>
     			<li><a href="/matricula">Situação Matricula</a></li>
+    			<li><a href="/acompanhamento">Acompanhamento do Municipio</a></li>
     			<li><a href="collapsible.html">Sair da conta</a></li>
   			</ul>
 		</div>
 	</nav>
 
 	<ul class="sidenav" id="mobile-demo">
-    	<li><a href="perfil">Sass</a></li>
-    	<li><a href="matricula">Components</a></li>
-    	<li><a href="collapsible.html">Javascript</a></li>
+    	<li><a href="/perfil">Perfil</a></li>
+    	<li><a href="/matricula">Situação da Matricula</a></li>
+    	<li><a href="/acompanhamento">Acompanhamento do Municipio</a></li>
+    	<li><a href="collapsible.html">Sair da Conta</a></li>
   	</ul>
 
   	<div class= 'perfil container'>
@@ -62,5 +60,5 @@
 		</div>
   	</div>
 
-
+  	@include('footer')
 @stop

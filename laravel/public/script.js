@@ -1,6 +1,19 @@
 
 //Abrir menu mobile
-document.addEventListener('DOMContentLoaded', function() {
-	var elems = document.querySelectorAll('.sidenav');
-	var instances = M.Sidenav.init(elems, options);
+
+$(document).ready(function() {
+	$('.sidenav').sidenav()
 });
+
+
+/*M.Tabs.init(document.querySelectorAll('.tabs'))*/
+
+//Abrir o Calendário
+
+$(document).ready(function(){
+	$('.datepicker').datepicker();
+});
+
+//Ativando tabs
+
+M.Tabs.init(document.querySelectorAll('.tabs'))
