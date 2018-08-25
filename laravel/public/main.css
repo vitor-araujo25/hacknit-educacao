@@ -8,6 +8,11 @@ nav {
 	background-color: #F27A2A;
 }
 
+footer {
+	margin-top: 10vh;
+	background-color: #F27A2A !important;
+}
+
 /* CLASSES ----------------------*/
 
 .margin {
@@ -70,6 +75,13 @@ nav {
 
 .btn-card:hover {
 	color: #F7BC8E;
+}
+
+
+.logo-niteroi {
+	padding-top: 7vh;
+}
+
 }
 
 /* Form colors from Materialize para o campo de CPF----------*/

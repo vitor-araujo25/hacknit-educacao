@@ -21,7 +21,7 @@ Route::get('/loginResponsavel', function () {
 
 Route::get('/loginEscola', function() {
 	return view('login');
-});
+})->name('loginEscola');
 
 Route::get('/cadastro', function() {
 	return view('cadastro');
