@@ -38,3 +38,6 @@ Route::get('/matricula', function() {
 Route::get('/filho', function() {
 	return view('filho');
 });
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

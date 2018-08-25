@@ -4,12 +4,12 @@
 
 	<div class='cadastro container'>
 		<div class='row'>
-			<h1 class='titulo col s12'> Cadastre-se</h1> 
+			<h1 class='titulo col s12'> Cadastre-se</h1>
 		</div>
 
 		<div class="row center">
-    		<form class="col s12">
-      		
+    		<form method="POST" class="col s12">
+
 				<div class="row">
         			<div class="input-field col s12 m7 l7">
 			            <input id="name" type="text" class="validate" required>
