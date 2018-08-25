@@ -9,11 +9,15 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #fff;
+                background-color: black;
                 color: #636b6f;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
@@ -65,6 +69,20 @@
         </style>
     </head>
     <body>
+        <nav class="nav z-depth-0">
+            <div class="nav-wrapper">
+                <a href="/" class="brand-logo center">Gaia</a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="produtos"><span class="black-text text-lighten-1">Produtos em destaque</span></a></li>
+                    <li><a href="contato"><span class="black-text text-lighten-1">Entre em contato</span></a></li>
+                </ul>
+                <ul class="side-nav black-t" id="mobile-demo">
+                    <li><a href="produtos">Produtos em destaque</a></li>
+                    <li><a href="contato">Entre em contato</a></li>
+                </ul>
+            </div>
+      </nav>
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
@@ -92,5 +110,7 @@
                 </div>
             </div>
         </div>
+         <script type="text/javascript" src="js/materialize.min.js"></script>
+
     </body>
 </html>
