@@ -98,6 +98,13 @@ input {
 	text-align: center;
 }
 
+.btn-back {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	color: #F27A2A;
+
+}
+
 .collection a.collection-item {
 	color: #F49044 !important;
 }

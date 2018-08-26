@@ -22,6 +22,11 @@
   	<li><a href="collapsible.html">Sair da Conta</a></li>
   </ul>
 
+  <div class='container'>
+    <div class='row'>
+        <a href='/filho' class='waves-effect waves-light btn-back margin'><i class="material-icons left">arrow_back</i>Voltar para a página anterior</a>
+    </div>
+  </div>
 
   @include('footer')
 

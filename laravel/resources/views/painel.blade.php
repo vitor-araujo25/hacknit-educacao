@@ -35,7 +35,7 @@
 
   </ul>
 
-  	<div class='container'>
+  	<div class='margin container'>
 
 	  	<div id="serie1" class="col s12">
 	        <div class="btn-turma collection">

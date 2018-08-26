@@ -22,6 +22,8 @@
 
   	<div class='container'>
 
+  		<a href='/painel' class='waves-effect waves-light btn-back margin'><i class="material-icons left">arrow_back</i>Voltar para a página anterior</a>
+
 	  	<div id="serie1" class="col s12">
 	        <div class="btn-turma collection">
 	        	<a href="/aluno" class="collection-item">Aluna</a>
