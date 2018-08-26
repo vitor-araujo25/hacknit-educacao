@@ -56,77 +56,111 @@
 
   <div id="notas">
     <div class='container'>
-      <h2 class='subtitulo'> Do Primeiro ao Quinto ano </h2>
-      <div class='row'>
-        <div class="col s12 m6 l6">
-            Conceito:
-            <div class="input-field inline">
-              <input id="nota_inline" type="number" class="validate">
-              <label for="nota_inline">Nota</label>
-            </div>
-          </div>
-      </div>
 
-      <h2 class='subtitulo'> Do Quinto ao nono ano </h2>
+     <h2 class='subtitulo'> Do Quinto ao Nono ano </h2>
+
       <div class="row">
-          <div class="col s12 m6 l6">
-            Matemática:
-            <div class="input-field inline">
-              <input id="nota_inline" type="number" class="validate">
-              <label for="nota_inline">Nota</label>
+        <form class="col s12">
+          <div class="row">
+            <h5 class='materia'> Matemática </h5>
+            <div class="input-field col s6">
+              <input id="nota" type="text" class="validate">
+              <label for="nota">Nota</label>
+            </div>
+            <div class="input-field col s6">
+              <input id="prova" type="text" class="validate">
+              <label for="prova">Prova</label>
+              <span class="helper-text" data-error="wrong" data-success="right">P1, P2, P3 ou P4</span>
             </div>
           </div>
-          <div class="col s12 m6 l6">
-            Português:
-            <div class="input-field inline">
-              <input id="nota_inline" type="number" class="validate">
-              <label for="nota_inline">Nota</label>
+          <div class="row">
+            <h5 class='materia'> Português </h5>
+            <div class="input-field col s6">
+              <input id="nota" type="text" class="validate">
+              <label for="nota">Nota</label>
+            </div>
+            <div class="input-field col s6">
+              <input id="prova" type="text" class="validate">
+              <label for="prova">Prova</label>
+              <span class="helper-text" data-error="wrong" data-success="right">P1, P2, P3 ou P4</span>
             </div>
           </div>
-          <div class="col s12 m6 l6">
-            Inglês:
-            <div class="input-field inline">
-              <input id="nota_inline" type="number" class="validate">
-              <label for="nota_inline">Nota</label>
+          <div class="row">
+            <h5 class='materia'> Inglês </h5>
+            <div class="input-field col s6">
+              <input id="nota" type="text" class="validate">
+              <label for="nota">Nota</label>
+            </div>
+            <div class="input-field col s6">
+              <input id="prova" type="text" class="validate">
+              <label for="prova">Prova</label>
+              <span class="helper-text" data-error="wrong" data-success="right">P1, P2, P3 ou P4</span>
             </div>
           </div>
-          <div class="col s12 m6 l6">
-            História:
-            <div class="input-field inline">
-              <input id="nota_inline" type="number" class="validate">
-              <label for="nota_inline">Nota</label>
+          <div class="row">
+            <h5 class='materia'> Ciência </h5>
+            <div class="input-field col s6">
+              <input id="nota" type="text" class="validate">
+              <label for="nota">Nota</label>
+            </div>
+            <div class="input-field col s6">
+              <input id="prova" type="text" class="validate">
+              <label for="prova">Prova</label>
+              <span class="helper-text" data-error="wrong" data-success="right">P1, P2, P3 ou P4</span>
             </div>
           </div>
-          <div class="col s12 m6 l6">
-            Geografia:
-            <div class="input-field inline">
-              <input id="nota_inline" type="number" class="validate">
-              <label for="nota_inline">Nota</label>
+          <div class="row">
+            <h5 class='materia'> História </h5>
+            <div class="input-field col s6">
+              <input id="nota" type="text" class="validate">
+              <label for="nota">Nota</label>
             </div>
-          </div>        
-          <div class="col s12 m6 l6">
-            Ciência:
-            <div class="input-field inline">
-              <input id="nota_inline" type="number" class="validate">
-              <label for="nota_inline">Nota</label>
+            <div class="input-field col s6">
+              <input id="prova" type="text" class="validate">
+              <label for="prova">Prova</label>
+              <span class="helper-text" data-error="wrong" data-success="right">P1, P2, P3 ou P4</span>
             </div>
           </div>
-          <div class="col s12 m6 l6">
-            Educação Física:
-            <div class="input-field inline">
-              <input id="nota_inline" type="number" class="validate">
-              <label for="nota_inline">Nota</label>
+          <div class="row">
+            <h5 class='materia'> Geografia </h5>
+            <div class="input-field col s6">
+              <input id="nota" type="text" class="validate">
+              <label for="nota">Nota</label>
+            </div>
+            <div class="input-field col s6">
+              <input id="prova" type="text" class="validate">
+              <label for="prova">Prova</label>
+              <span class="helper-text" data-error="wrong" data-success="right">P1, P2, P3 ou P4</span>
             </div>
           </div>
-          <div class="col s12 m6 l6">
-            Artes:
-            <div class="input-field inline">
-              <input id="nota_inline" type="number" class="validate">
-              <label for="nota_inline">Nota</label>
+          <div class="row">
+            <h5 class='materia'> Educação Física </h5>
+            <div class="input-field col s6">
+              <input id="nota" type="text" class="validate">
+              <label for="nota">Nota</label>
+            </div>
+            <div class="input-field col s6">
+              <input id="prova" type="text" class="validate">
+              <label for="prova">Prova</label>
+              <span class="helper-text" data-error="wrong" data-success="right">P1, P2, P3 ou P4</span>
             </div>
           </div>
-        </div>
+          <div class="row">
+            <h5 class='materia'> Artes </h5>
+            <div class="input-field col s6">
+              <input id="nota" type="text" class="validate">
+              <label for="nota">Nota</label>
+            </div>
+            <div class="input-field col s6">
+              <input id="prova" type="text" class="validate">
+              <label for="prova">Prova</label>
+              <span class="helper-text" data-error="wrong" data-success="right">P1, P2, P3 ou P4</span>
+            </div>
+          </div>
+        </form>
+
       </div>
+      
     </div>
   </div>
 

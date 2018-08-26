@@ -105,6 +105,13 @@ input {
 
 }
 
+.materia {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	color: #F27A2A;
+	font-size: 1em;
+}
+
 .collection a.collection-item {
 	color: #F49044 !important;
 }
