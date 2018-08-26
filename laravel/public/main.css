@@ -20,6 +20,12 @@ input {
 
 /* CLASSES ----------------------*/
 
+
+.brand-logo {
+	font-family: 'Glegoo', serif;
+	margin-left: 5vw ;
+}
+
 .margin {
 	margin-top: 15vh;
 }
@@ -52,9 +58,8 @@ input {
 
 .btn {
 	background-color: #726663;
-	width: 25vw;
 	color: white !important;
-
+	text-align: center;
 }
 
 .btn:hover {

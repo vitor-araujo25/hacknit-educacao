@@ -4,6 +4,23 @@
 
 	@if (Request::is('loginResponsavel')) <!-- Página de login para o Responsável da criança-->
 
+	    <!--NAVBAR -->
+	    <nav>
+	        <div class="nav-wrapper">
+	            <a href='/loginResponsavel' class="brand-logo center">S.O.S</a>
+	            <a href="#" data-target="mobile-demo" class="right sidenav-trigger"><i class="material-icons">menu</i></a>
+	            <ul class="right hide-on-med-and-down">
+	                <li class='active'><a href="/loginResponsavel">Login</a></li>
+	                <li><a href="/acompanhamentoLogin">Acompanhamento do Municipio</a></li>
+	            </ul>
+	        </div>
+	    </nav>
+
+
+	    <ul class="sidenav" id="mobile-demo">
+	        <li><a href="/loginResponsavel">Login</a></li>
+	        <li><a href="/acompanhamentoLogin">Acompanhamento do Municipio</a></li>
+	    </ul>
 		<div class='margin container'>
 			<div class='row'>
 				<h1 class='titulo'> Bem vindo!</h1>
@@ -34,13 +51,14 @@
 	    		</form>
 	  		</div>
 	  	</div>
+	  	@include('footer')
 	@endif
 
 	@if (Request::is('loginEscola'))
 
 		<div class='login container'>
 			<div class='row'>
-				<h1 class='titulo'> Bem vindo!</h1>
+				<h1 class='titulo'> Área para Escola</h1>
 			</div>
 			<div class="row center">
 	    		<form class="col s12">

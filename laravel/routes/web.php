@@ -41,6 +41,10 @@ Route::get('/acompanhamentoEscola', function() {
 	return view('acompanhamentoEscola');
 });
 
+Route::get('/acompanhamentoLogin', function() {
+	return view('acompanhamentoLogin');
+});
+
 Route::get('/matricula', function() {
 	return view('matricula');
 });

@@ -2,6 +2,24 @@
 
 @section('content')
 
+	<nav>
+		<div class="nav-wrapper">
+	  		<a href='/loginResponsavel' class="brand-logo left">S.O.S</a>
+	  		<a href="#" data-target="mobile-demo" class="right sidenav-trigger"><i class="material-icons">menu</i></a>
+  			<ul class="right hide-on-med-and-down">
+    			<li><a href="/loginResponsavel">Login</a></li>
+    			<li class="active"><a href="/acompanhamentoLogin">Acompanhamento do Municipio</a></li>
+  			</ul>
+		</div>
+    </nav>
+
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="/login">Login</a></li>
+        <li class="active"><a href="/acompanhamentoLogin">Acompanhamento do Municipio</a></li>
+
+    </ul>
+
 	<div class='cadastro container'>
 		<div class='row'>
 			<h1 class='titulo col s12'> Cadastre-se</h1>
@@ -49,5 +67,5 @@
   		</div>
 	</div>
 
-
+	@include('footer')
 @stop

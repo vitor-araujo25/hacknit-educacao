@@ -4,7 +4,7 @@
 
   <nav class="nav-extended">
     <div class="nav-wrapper">
-  		<a href='/painel' class="brand-logo left">Logo</a>
+  		<a href='/painel' class="brand-logo left">S.O.S</a>
   		<a href="#" data-target="mobile-demo" class="right sidenav-trigger"><i class="material-icons">menu</i></a>
 		<ul class="right hide-on-med-and-down">
 			<li class="active"><a href="/perfil">Painel</a></li>
@@ -46,7 +46,9 @@
               </div>
             </div>
             <div class='row center'>
-               <input type='submit' class="btn waves-effect waves-light btn-large" value='Enviar!'>
+              <div class='col s12'>
+                 <input type='submit' class="btn waves-effect waves-light btn-large" value='Enviar'>
+              </div>
             </div>
           </form>
       </div>
@@ -157,6 +159,9 @@
               <span class="helper-text" data-error="wrong" data-success="right">P1, P2, P3 ou P4</span>
             </div>
           </div>
+
+          <input type="submit" name="notas" class="btn waves-effect waves-light btn-large right" value='Enviar'>
+
         </form>
 
       </div>

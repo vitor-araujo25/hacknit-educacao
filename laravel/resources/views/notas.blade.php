@@ -4,7 +4,7 @@
 	<!--NAVBAR --> 
 	<nav>
 		<div class="nav-wrapper">
-	  		<a href='/perfil' class="brand-logo left">Logo</a>
+	  		<a href='/perfil' class="brand-logo left">S.O.S</a>
 	  		<a href="#" data-target="mobile-demo" class="right sidenav-trigger"><i class="material-icons">menu</i></a>
   			<ul class="right hide-on-med-and-down">
     			<li><a lass="active" href="/perfil">Perfil</a></li>

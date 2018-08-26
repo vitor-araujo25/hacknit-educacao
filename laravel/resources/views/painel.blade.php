@@ -4,7 +4,7 @@
 
   <nav class="nav-extended">
     <div class="nav-wrapper">
-  		<a href='/painel' class="brand-logo left">Logo</a>
+  		<a href='/painel' class="brand-logo left">S.O.S</a>
   		<a href="#" data-target="mobile-demo" class="right sidenav-trigger"><i class="material-icons">menu</i></a>
 		<ul class="right hide-on-med-and-down">
 			<li class="active"><a href="/perfil">Painel</a></li>
@@ -36,6 +36,8 @@
   </ul>
 
   	<div class='margin container'>
+
+      <h2 class="subtitulo header">Escolha uma turma</h2>
 
 	  	<div id="serie1" class="col s12">
 	        <div class="btn-turma collection">
