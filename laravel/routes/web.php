@@ -11,6 +11,8 @@
 |
 */
 
+Auth::routes();
+
 Route::get('/', function () {
     return view('home');
 });
@@ -47,6 +49,9 @@ Route::get('/filho', function() {
 	return view('filho');
 });
 
+Route::get('/home', 'HomeController@index')->name('home');
+
+
 Route::get('/notas', function() {
 	return view('notas');
 });
@@ -66,4 +71,8 @@ Route::get('/turma', function() {
 
 Route::get('/aluno', function() {
 	return view('aluno');
+});
+
+Route::get('/smsEnviado', function() {
+    return view('smsEnviado');
 });
