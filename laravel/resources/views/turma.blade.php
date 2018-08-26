@@ -28,7 +28,7 @@
 		<h2 class="subtitulo header">Escolha o aluno:</h2>
 	  	<div id="serie1" class="col s12">
 	        <div class="btn-turma collection">
-	        	<a href="/aluno" class="collection-item">Aluna</a>
+	        	<a href="/aluno" class="collection-item">Filho Imaginário</a>
 	        	<a href="#!" class="collection-item">Aluno</a>
 	        	<a href="#!" class="collection-item"> Aluno</a>
 	        	<a href="#!" class="collection-item">Aluno</a>

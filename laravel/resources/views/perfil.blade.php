@@ -33,11 +33,11 @@
 		    			<div class='container'>
 		    				<div class='row'>
 		    					<h3 class='subtitulo'> Nome: </h3>
-		    					<p class='nome col s12 m6 offset-m1'> nomeeee </p>
+		    					<p class='nome col s12 m6 offset-m1'> Larissa Galeno </p>
 		    				</div>
 							<div class='row'>
 		    					<h3 class='subtitulo'> CPF: </h3>
-		    					<p class='nome col s12 m6 offset-m1'> 000.000.000-00 </p>
+		    					<p class='nome col s12 m6 offset-m1'> 177.885.297-10 </p>
 		    				</div>
 		    			</div>
 		    		</div>
@@ -50,7 +50,7 @@
 			<div class="card horizontal">
 		  		<div class="card-stacked">
 		    		<div class="card-action">
-		    			<a href='/filho' class='card-filho waves-effect waves-light'> Nome do Filho </a>
+		    			<a href='/filho' class='card-filho waves-effect waves-light'> Filho Imaginário </a>
 
 		    		</div>
 		  		</div>

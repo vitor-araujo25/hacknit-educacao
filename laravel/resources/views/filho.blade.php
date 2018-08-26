@@ -44,19 +44,19 @@
 		    			<div class='container'>
 		    				<div class='row'>
 		    					<h3 class='subtitulo'> Nome: </h3>
-		    					<p class='nome col s12 m6 offset-m1'> nomeeee </p>
+		    					<p class='nome col s12 m6 offset-m1'> Filho Imaginário </p>
 		    				</div>
 							<div class='row'>
 		    					<h3 class='subtitulo'> Escola: </h3>
-		    					<p class='nome col s12 m6 offset-m1'> escolaaaa </p>
+		    					<p class='nome col s12 m6 offset-m1'> Escola Fundamental </p>
 		    				</div>
 							<div class='row'>
 		    					<h3 class='subtitulo'> Turma: </h3>
-		    					<p class='nome col s12 m6 offset-m1'> turmaaa </p>
+		    					<p class='nome col s12 m6 offset-m1'> 102 </p>
 		    				</div>
 							<div class='row'>
 		    					<h3 class='subtitulo'> Série: </h3>
-		    					<p class='nome col s12 m6 offset-m1'> sérieeeeee </p>
+		    					<p class='nome col s12 m6 offset-m1'> 1ª Série </p>
 		    				</div>
 		    			</div>
 		    		</div>

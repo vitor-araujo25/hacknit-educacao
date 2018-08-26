@@ -26,15 +26,15 @@
     <div class='previsao row center'>
       <div class='col s12 m4 l4'>
         <h5 class="subtitulo"> Probabilidade de ser Aprovado </h5>
-        <p class="porcentagem"> 60 % </p>
+        <p class="porcentagem"> 30 % </p>
       </div>  
       <div class='col s12 m4 l4'>
         <h5 class="subtitulo"> Probabilidade de ser Reprovado </h5>
-        <p class="porcentagem"> 60 % </p>
+        <p class="porcentagem"> 30 % </p>
       </div>      
       <div class='col s12 m4 l4'>
         <h5 class="subtitulo"> Probabilidade de sair do Sistema </h5>
-        <p class="porcentagem"> 60 % </p>
+        <p class="porcentagem"> 40 % </p>
       </div>
     </div>
 

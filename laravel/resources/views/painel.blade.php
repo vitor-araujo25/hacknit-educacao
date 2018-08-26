@@ -41,7 +41,7 @@
 
 	  	<div id="serie1" class="col s12">
 	        <div class="btn-turma collection">
-	        <a href="/turma" class="collection-item">Turma 1</a>
+	        <a href="/turma" class="collection-item">102</a>
 	        <a href="#!" class="collection-item">Turma 2</a>
 	        <a href="#!" class="collection-item">Turma 3</a>
 	        <a href="#!" class="collection-item">Turma 4</a>
