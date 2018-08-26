@@ -16,8 +16,8 @@ class CreateAttendancesTable extends Migration
         Schema::create('attendances', function (Blueprint $table) {
             $table->increments('id');
             $table->timestamp('data');
-            $table->integer('aluno_id')->unsigned();
-            $table->foreign('aluno_id')->references('id')->on('students');
+            $table->string('aluno_id');
+            $table->foreign('aluno_id')->references('cadastro_inep')->on('students');
 
             $table->timestamps();
         });

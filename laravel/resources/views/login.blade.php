@@ -9,10 +9,11 @@
 				<h1 class='titulo'> Bem vindo!</h1>
 			</div>
 			<div class="row center">
-	    		<form class="col s12">
+	    		<form action="{{action('LoginController@responsavel')}}" method="POST" class="col s12">
+					@csrf
 	      			<div class="row">
 	        			<div class="input-field col s12 m7 l7 offset-m1 offset-l3">
-				            <input id="cpf" type="text" class="validate" required>
+				            <input name="cpf" id="cpf" type="text" class="validate" required>
 				            <label for="cpf">CPF</label>
 	            			<span class="helper-text" data-error="Favor entrar com CPF" data-success="">Entrar somente com os números</span>
 	          			</div>
@@ -20,7 +21,7 @@
 
 				    <div class="row">
 				        <div class="input-field col s12 m7 l7 offset-m1 offset-l3">
-				          <input id="password" type="password" class="validate" required>
+				          <input name="senha" id="password" type="password" class="validate" required>
 				          <label for="password">Senha</label>
 				        </div>
 		      		</div>
@@ -43,10 +44,11 @@
 				<h1 class='titulo'> Bem vindo!</h1>
 			</div>
 			<div class="row center">
-	    		<form class="col s12">
+	    		<form action='{{action('LoginController@escola')}}' method="POST" class="col s12">
+					@csrf
 	      			<div class="row">
 	        			<div class="input-field col s12 m7 l7 offset-m1 offset-l3">
-				            <input id="email" type="email" class="validate" required>
+				            <input name='email' id="email" type="email" class="validate" required>
 				            <label for="email">E-mail</label>
 	            			<span class="helper-text" data-error="Favor entrar com o E-mail da escola" data-success="">Entre com o e-mail da escola</span>
 	          			</div>
@@ -54,7 +56,7 @@
 
 				    <div class="row">
 				        <div class="input-field col s12 m7 l7 offset-m1 offset-l3">
-				          <input id="password" type="password" class="validate" required>
+				          <input name='senha' id="password" type="password" class="validate" required>
 				          <label for="password">Senha</label>
 				        </div>
 		      		</div>

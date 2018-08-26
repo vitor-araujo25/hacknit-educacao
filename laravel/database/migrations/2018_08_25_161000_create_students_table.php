@@ -14,18 +14,22 @@ class CreateStudentsTable extends Migration
     public function up()
     {
         Schema::create('students', function (Blueprint $table) {
-            $table->increments('id');
+            $table->string('cadastro_inep');
+            $table->primary('cadastro_inep');
             $table->string('nome');
             $table->integer('turma_atual')->unsigned();
             $table->foreign('turma_atual')->references('id')->on('classrooms');
             $table->integer('idade');
-            $table->date('data_de_ingresso');
-            $table->date('data_nascimento');
+            $table->integer('ano_nascimento');
             $table->string('sexo');
-            $table->integer('etnia');
-            $table->integer('zona_residencial');
+            $table->string('etnia');
+            $table->string('zona_residencial');
             $table->integer('pai')->unsigned();
             $table->foreign('pai')->references('id')->on('users');
+            $table->integer('anos_atraso');
+            $table->float('prob_evasao');
+            $table->float('prob_rep');
+            $table->float('prob_promo');
             $table->timestamps();
         });
     }

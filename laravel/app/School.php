@@ -11,13 +11,17 @@ class School extends Authenticatable
 
     protected $guard = 'admin';
 
+    protected $primaryKey = 'codigo';
+
+    public $incrementing = false;
+
     /**
      * The attributes that are mass assignable.
      *
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password',
+        'nome', 'email', 'senha',
     ];
 
     /**
@@ -26,6 +30,6 @@ class School extends Authenticatable
      * @var array
      */
     protected $hidden = [
-        'password', 'remember_token',
+        'senha', 'remember_token',
     ];
 }

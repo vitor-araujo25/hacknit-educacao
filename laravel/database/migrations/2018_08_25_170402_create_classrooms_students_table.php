@@ -15,10 +15,10 @@ class CreateClassroomsStudentsTable extends Migration
     {
         Schema::create('classrooms_students', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('classroom_id')->unsigned();
-            $table->foreign('classroom_id')->references('id')->on('classrooms');
-            $table->integer('student_id')->unsigned();
-            $table->foreign('student_id')->references('id')->on('students');
+            $table->integer('turma_id')->unsigned();
+            $table->foreign('turma_id')->references('id')->on('classrooms');
+            $table->string('aluno_id');
+            $table->foreign('aluno_id')->references('cadastro_inep')->on('students');
             $table->timestamps();
         });
     }
