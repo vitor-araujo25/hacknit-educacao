@@ -9,7 +9,7 @@
 		<ul class="right hide-on-med-and-down">
 			<li class="active"><a href="/perfil">Painel</a></li>
 			<li><a href="/acompanhamento">Acompanhamento do Municipio</a></li>
-			<li><a href="collapsible.html">Sair da conta</a></li>
+			<li><a href="/home">Sair da conta</a></li>
 		</ul>
     </div>
 
@@ -17,7 +17,6 @@
       <ul class="tabs tabs-transparent">
         <li class="tab"><a class='active' href="#advertencia">Advertências</a></li>
         <li class="tab"><a href="#notas">Notas</a></li>
-        <li class="tab"><a href="#presenca">Presença</a></li>
       </ul>
     </div>
   </nav>
@@ -25,7 +24,7 @@
   <ul class="sidenav" id="mobile-demo">
 		<li class="active"><a href="/perfil">Painel</a></li>
 		<li><a href="/acompanhamento">Acompanhamento do Municipio</a></li>
-		<li><a href="collapsible.html">Sair da conta</a></li>
+		<li><a href="/home">Sair da conta</a></li>
 
   </ul>
 
@@ -169,7 +168,6 @@
     </div>
   </div>
 
-  <div id="presenca" class="col s12">Test 3</div>
 
   @include('footer')
 @stop

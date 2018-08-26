@@ -9,7 +9,7 @@
   			<ul class="right hide-on-med-and-down">
     			<li><a lass="active" href="/perfil">Perfil</a></li>
     			<li><a href="/acompanhamento">Acompanhamento do Municipio</a></li>
-    			<li><a href="collapsible.html">Sair da conta</a></li>
+    			<li><a href="/home">Sair da conta</a></li>
   			</ul>
 		</div>
 	</nav>
@@ -17,7 +17,7 @@
 	<ul class="sidenav" id="mobile-demo">
   	<li><a href="/perfil">Perfil</a></li>
   	<li><a href="/acompanhamento">Acompanhamento do Municipio</a></li>
-  	<li><a href="collapsible.html">Sair da Conta</a></li>
+  	<li><a href="/home">Sair da Conta</a></li>
   </ul>
 
   <div class='container'>

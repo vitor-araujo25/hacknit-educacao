@@ -26,9 +26,11 @@
 				<h1 class='titulo'> Bem vindo!</h1>
 			</div>
 			<div class="row center">
-	    		<form action="{{action('LoginController@responsavel')}}" method="POST" class="col s12">
-					@csrf
-	      			<div class="row">
+	    		{{--<form action="{{action('LoginController@responsavel')}}" method="POST" class="col s12">--}}
+					{{--@csrf--}}
+				<form class="col s12">
+
+				<div class="row">
 	        			<div class="input-field col s12 m7 l7 offset-m1 offset-l3">
 				            <input name="cpf" id="cpf" type="text" class="validate" required>
 				            <label for="cpf">CPF</label>
@@ -44,7 +46,8 @@
 		      		</div>
 
 		      		<div class='row'>
-		      			<input type='submit' class='btn waves-effect waves-light btn-large col s12 m5 offset-m3 l4 offset-l4' value='Acessar Conta'>
+		      			{{--<input type='submit' class='btn waves-effect waves-light btn-large col s12 m5 offset-m3 l4 offset-l4' value='Acessar Conta'>--}}
+						<a href="/perfil" class="btn waves-effect waves-light btn-large">Acessar</a>
 		      		</div>
 		      		<div class='row'>
 		      			<a href='/cadastro' class=''> Ainda não tem conta? Cadastre-se! </a>
@@ -62,9 +65,11 @@
 				<h1 class='titulo'> Área para Escola</h1>
 			</div>
 			<div class="row center">
-	    		<form action='{{action('LoginController@escola')}}' method="POST" class="col s12">
-					@csrf
-	      			<div class="row">
+	    		{{--<form action='{{action('LoginController@escola')}}' method="POST" class="col s12">--}}
+					{{--@csrf--}}
+				<form class="col s12">
+
+				<div class="row">
 	        			<div class="input-field col s12 m7 l7 offset-m1 offset-l3">
 				            <input name='email' id="email" type="email" class="validate" required>
 				            <label for="email">E-mail</label>
@@ -80,7 +85,8 @@
 		      		</div>
 
 		      		<div class='row'>
-		      			<input type='submit' class='btn waves-effect waves-light btn-large col s12 m5 offset-m3 l4 offset-l4' value='Acessar Conta'>
+		      			{{--<input type='submit' class='btn waves-effect waves-light btn-large col s12 m5 offset-m3 l4 offset-l4' value='Acessar Conta'>--}}
+						<a href="/painel" class="btn waves-effect waves-light btn-large">Acessar</a>
 		      		</div>
 	    		</form>
 	  		</div>

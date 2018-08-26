@@ -9,7 +9,7 @@
             <ul class="right hide-on-med-and-down">
                 <li><a href="/painel">Painel</a></li>
                 <li class='active'><a href="/acompanhamentoEscola">Acompanhamento do Municipio</a></li>
-                <li><a href="collapsible.html">Sair da conta</a></li>
+                <li><a href="/home">Sair da conta</a></li>
             </ul>
         </div>
       </nav>
@@ -17,7 +17,7 @@
     <ul class="sidenav" id="mobile-demo">
         <li class="active"><a href="/painel">Painel</a></li>
         <li><a href="/acompanhamentoEscola">Acompanhamento do Municipio</a></li>
-        <li><a href="collapsible.html">Sair da conta</a></li>
+        <li><a href="/home">Sair da conta</a></li>
 
      </ul>
 

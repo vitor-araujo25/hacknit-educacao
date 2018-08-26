@@ -18,7 +18,7 @@
     			<li class="active"><a href="/perfil">Perfil</a></li>
     			<li><a href="/acompanhamento">Acompanhamento do Municipio</a></li>
 
-    			<li><a href="collapsible.html">Sair da conta</a></li>
+    			<li><a href="/home">Sair da conta</a></li>
   			</ul>
 		</div>
 	</nav>
@@ -27,7 +27,7 @@
     	<li><a href="perfil">Perfil</a></li>
     	<li><a href="/acompanhamento">Acompanhamento do Municipio</a></li>
 
-    	<li><a href="collapsible.html">Sair da Conta</a></li>
+    	<li><a href="/home">Sair da Conta</a></li>
   	</ul>
 
 
@@ -65,17 +65,17 @@
 		</div>
 
 
-		<div class="col s12 m7">
-			<div class="card horizontal">
-		  		<div class="card-stacked">
-		    		<div class="card-content">
-	    				<div class='row center'>
-	    					<a class='datepicker btn-card col s12 m12'> Presença </a>
-	    				</div>
-		    		</div>
-		  		</div>
-			</div>
-		</div>
+		{{--<div class="col s12 m7">--}}
+			{{--<div class="card horizontal">--}}
+		  		{{--<div class="card-stacked">--}}
+		    		{{--<div class="card-content">--}}
+	    				{{--<div class='row center'>--}}
+	    					{{--<a class='datepicker btn-card col s12 m12'> Presença </a>--}}
+	    				{{--</div>--}}
+		    		{{--</div>--}}
+		  		{{--</div>--}}
+			{{--</div>--}}
+		{{--</div>--}}
 
 		<div class="col s12 m7">
 			<div class="card horizontal">
@@ -94,7 +94,7 @@
 		  		<div class="card-stacked">
 		    		<div class="card-content">
 	    				<div class='row center'>
-	    					<a href='/previsao' class='btn-card col s12 m12'> Previsão do rendimento </a>
+	    					<a href='/previsao' class='btn-card col s12 m12'> Prognóstico do rendimento </a>
 	    				</div>
 		    		</div>
 		  		</div>
