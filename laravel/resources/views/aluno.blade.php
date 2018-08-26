@@ -32,12 +32,12 @@
 	<div class='margin container'>
 
   	<div id="advertencia" class="col s12">
-      <h1 class='subtitulo'> Envie o S.M.S para o pai do Aluno </h1> 
+      <h1 class='subtitulo'> Envie o S.M.S para o pai do Aluno </h1>
         <div class="row">
-          <form class="col s12">
+        <form action='smsEnviado' method="get" class="col s12">
             <div class="row">
               <div class="input-field col s12">
-                <textarea id="textarea2" class="materialize-textarea" data-length="160"></textarea>
+                <textarea id="textarea2" class="materialize-textarea" name="mensagem" data-length="160"></textarea>
                 <label for="sms">Corpo do SMS</label>
               </div>
             </div>
@@ -47,7 +47,6 @@
           </form>
       </div>
     </div>
-
 
     <div id="notas" class="col s12">Test 2</div>
     <div id="presenca" class="col s12">Test 3</div>

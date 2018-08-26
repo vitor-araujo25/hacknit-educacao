@@ -72,3 +72,7 @@ Route::get('/turma', function() {
 Route::get('/aluno', function() {
 	return view('aluno');
 });
+
+Route::get('/smsEnviado', function() {
+    return view('smsEnviado');
+});
