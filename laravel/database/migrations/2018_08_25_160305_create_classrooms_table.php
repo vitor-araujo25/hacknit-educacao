@@ -14,12 +14,13 @@ class CreateClassroomsTable extends Migration
     public function up()
     {
         Schema::create('classrooms', function (Blueprint $table) {
-            $table->increments('id');
-            $table->string('codigo');
+            $table->integer('id')->unsigned();
+            $table->primary("id");
+            $table->string('nome');
             $table->integer('ano_letivo');
-            $table->integer('school_id')->unsigned();
-            $table->foreign('school_id')->references('id')->on('schools');
-            $table->integer('serie');
+            $table->integer('escola_id')->unsigned();
+            $table->foreign('escola_id')->references('codigo')->on('schools');
+            $table->integer('etapa');
             $table->timestamps();
         });
     }

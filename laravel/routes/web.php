@@ -11,8 +11,6 @@
 |
 */
 
-Auth::routes();
-
 Route::get('/', function () {
     return view('home');
 });
@@ -68,3 +66,7 @@ Route::get('/turma', function() {
 Route::get('/aluno', function() {
 	return view('aluno');
 });
+
+Route::post('/login/escola','LoginController@escola');
+
+Route::post('/login/responsavel', 'LoginController@responsavel');

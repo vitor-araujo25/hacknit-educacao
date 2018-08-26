@@ -15,16 +15,16 @@ class CreateScoresTable extends Migration
     {
         Schema::create('scores', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('student_id')->unsigned();
-            $table->foreign('student_id')->references('id')->on('students');
+            $table->string('aluno_id');
+            $table->foreign('aluno_id')->references('cadastro_inep')->on('students');
             $table->float('nota');
-            $table->integer('subject_id')->unsigned();
-            $table->foreign('subject_id')->references('id')->on('subjects');
+            $table->integer('disciplina_id')->unsigned();
+            $table->foreign('disciplina_id')->references('id')->on('subjects');
 
             //TODO: ver como funciona esquema de provas na rede municipal
             $table->integer('avaliacao'); //P1, P2, etc...
-            $table->integer('classroom_id')->unsigned();
-            $table->foreign('classroom_id')->references('id')->on('classrooms');
+            $table->integer('turma_id')->unsigned();
+            $table->foreign('turma_id')->references('id')->on('classrooms');
             $table->timestamps();
         });
     }
