@@ -4,10 +4,12 @@
     	<meta charset="utf-8">
     	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>HackNit</title>
+        <title>Segue o enSino</title>
 
     	<!-- Fonts -->
 		<link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/css?family=Glegoo" rel="stylesheet">
+
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <!--Import materialize.css-->
         <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>

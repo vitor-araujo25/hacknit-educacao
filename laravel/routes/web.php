@@ -35,6 +35,14 @@ Route::get('/acompanhamento', function() {
 	return view('acompanhamento');
 });
 
+Route::get('/acompanhamentoEscola', function() {
+	return view('acompanhamentoEscola');
+});
+
+Route::get('/acompanhamentoLogin', function() {
+	return view('acompanhamentoLogin');
+});
+
 Route::get('/matricula', function() {
 	return view('matricula');
 });
@@ -70,3 +78,7 @@ Route::get('/aluno', function() {
 Route::post('/login/escola','LoginController@escola');
 
 Route::post('/login/responsavel', 'LoginController@responsavel');
+
+Route::get('/smsEnviado', function() {
+    return view('smsEnviado');
+});

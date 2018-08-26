@@ -10,10 +10,10 @@
       <div class="col l4 offset-l2 s12">
         <h5 class="white-text">Sites recomendados:</h5>
         <ul>
-          <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-          <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-          <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-          <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+          <li><a class="grey-text text-lighten-3" href="http://www.niteroi.rj.gov.br">Prefeitura Municipal de Niterói</a></li>
+          <li><a class="grey-text text-lighten-3" href="http://www.educacaoniteroi.com.br/secretaria/">Secretaría de Educação</a></li>
+          <li><a class="grey-text text-lighten-3" href="https://www.mec.gov.br/">Ministério da Educação</a></li>
+          <li><a class="grey-text text-lighten-3" href="https://github.com/seplagniteroi/hacknit">Github da Hacknit</a></li>
         </ul>
       </div>
     </div>

@@ -2,28 +2,27 @@
 
 @section('content')
 	<!--NAVBAR -->
-    	<nav>
-    		<div class="nav-wrapper">
-    	  		<a href='/perfil' class="brand-logo left">S.O.S</a>
-    	  		<a href="#" data-target="mobile-demo" class="right sidenav-trigger"><i class="material-icons">menu</i></a>
-      			<ul class="right hide-on-med-and-down">
-        			<li><a href="/perfil">Perfil</a></li>
-        			<li class="active"><a href="/acompanhamento">Acompanhamento do Municipio</a></li>
-        			<li><a href="collapsible.html">Sair da conta</a></li>
-      			</ul>
-    		</div>
-    	</nav>
-
+      <nav>
+        <div class="nav-wrapper">
+            <a href='/painel' class="brand-logo left">S.O.S</a>
+            <a href="#" data-target="mobile-demo" class="right sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="/painel">Painel</a></li>
+                <li class='active'><a href="/acompanhamentoEscola">Acompanhamento do Municipio</a></li>
+                <li><a href="collapsible.html">Sair da conta</a></li>
+            </ul>
+        </div>
+      </nav>
 
     <ul class="sidenav" id="mobile-demo">
-        <li class="active"><a href="/perfil">Perfil</a></li>
-        <li><a href="/acompanhamento">Acompanhamento do Municipio</a></li>
+        <li class="active"><a href="/painel">Painel</a></li>
+        <li><a href="/acompanhamentoEscola">Acompanhamento do Municipio</a></li>
         <li><a href="collapsible.html">Sair da conta</a></li>
 
      </ul>
 
 
-    <div class="container" style= "margin-top: 3vh">
+    <div class="container" style= "margin-top: 3em">
         <div class="row">
             <div class="col s6 m4">
                 <div class="card">
