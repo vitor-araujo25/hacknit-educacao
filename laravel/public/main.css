@@ -24,6 +24,10 @@ input {
 	margin-top: 15vh;
 }
 
+.previsao {
+	margin-top: 5vh;
+}
+
 .titulo {
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
@@ -110,6 +114,11 @@ input {
 	font-weight: 300;
 	color: #F27A2A;
 	font-size: 1em;
+}
+
+.porcentagem {
+	color: #726663;
+	font-size: 4.5em;
 }
 
 .collection a.collection-item {
