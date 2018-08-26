@@ -13,6 +13,11 @@ footer {
 	background-color: #F27A2A !important;
 }
 
+input {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+
 /* CLASSES ----------------------*/
 
 .margin {
@@ -39,6 +44,7 @@ footer {
 	margin-right: auto;
 	margin-left: auto;
 }
+
 
 .btn {
 	background-color: #726663;
@@ -77,6 +83,12 @@ footer {
 	color: #F7BC8E;
 }
 
+.legenda-grafico {
+    font-size: 1em;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+
+}
 
 .logo-niteroi {
 	padding-top: 7vh;
@@ -178,4 +190,12 @@ footer {
 .input-field .prefix.active {
  	color: #F49044 !important;
 }
+
+/* Form colors from Materialize para o campo de TEXTAREA----------*/
+
+textarea.materialize-textarea:focus:not([readonly]) {
+	box-shadow: 0 1px 0 0 #F49044 !important; 
+	border-bottom: 1px solid #F49044 !important;
+}
+
 /* IDs -------------------------*/
